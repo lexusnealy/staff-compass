@@ -1,10 +1,10 @@
 -- Insert departments
 INSERT INTO department (name)
-VALUES ('Interior Design'),
+VALUES ('Design'),
        ('IT'),
-       ('Full stack Dev'),
-       ('Design Consultant'),
-       ('Project Management');
+       ('Engineering'),
+       ('Consulting'),
+       ('Management');
 
 -- Insert roles
 INSERT INTO role (title, salary, department_id)
